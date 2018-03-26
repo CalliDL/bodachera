@@ -35,7 +35,7 @@
 	$email = $_POST['email'];
 	$message = 'Alguien se ha subscrito';
 	$from = $email;
-	$subject = 'Contact Form : Texas Lawers Responsive HTML5 Template';
+	$subject = 'Contacto Bodachera';
 	
 	$body = "From: $name\n E-Mail: $email\n Message:\n $message";
 
@@ -43,11 +43,11 @@
 	//send the email
 	$result = '';
 	if (mail ($to, $subject, $body)) {
-		$result .= '<div class="alert alert-success alert-dismissible" role="alert">';
- 		$result .= '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-		$result .= 'Thank You! I will be in touch';
-		$result .= '</div>';
-
+		//$result .= '<div class="alert alert-success alert-dismissible" role="alert">';
+ 		//$result .= '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
+		//$result .= 'Thank You! I will be in touch';
+		//$result .= '</div>';
+                $result .= '<meta http-equiv="refresh" content="0; url=http://localhost/bodachera/indexbodachera.html">';
 		echo $result;
 		die();
 	}
