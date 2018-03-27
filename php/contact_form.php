@@ -1,6 +1,6 @@
 <?php
 
-	$to = 'info@bodachera.com.mx';  // please change this email id
+	$to = 'bellebridetobe@gmail.com';  // please change this email id
 	
 	$errors = array();
 	
